@@ -17,9 +17,9 @@
         elif self.sp == "Птах":
             return "Чирик"
         elif self.sp == "Риба":
-            return "Буль!"
+            return "Буль"
         elif self.sp == "Крокодил":
-            return "Гррр!"
+            return "Гррр"
 
     def action(self):
         if self.fly:

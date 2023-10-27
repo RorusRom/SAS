@@ -19,7 +19,7 @@
         elif self.sp == "Риба":
             return "Буль"
         elif self.sp == "Крокодил":
-            return "Гррр"
+            return "Грр"
 
     def action(self):
         if self.fly:
@@ -80,7 +80,7 @@ class Car:
     def brake(self):
         if self.is_running:
             self.speed = 0
-            return f"{self.make} {self.model} зупиняється."
+            return f"{self.make} {self.model} зупиняться."
         else:
             return f"{self.make} {self.model} не може зупинятися."
 
